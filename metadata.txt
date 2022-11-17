@@ -1,0 +1,37 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.0 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=XML2GeoJSONConverter
+qgisMinimumVersion=3.0
+description=Converts XML file to GeoJSON
+about=This tool gets XML file and converts it to GeoJSON
+version=1.0.0
+
+# Optional items:
+
+# changelog=
+homepage=https://github.com/shalimov-it-limon/QGISProject/tree/master/XML2GeoJSONConverter
+tracker=https://github.com/shalimov-it-limon/QGISProject/tree/master/XML2GeoJSONConverter
+repository=https://github.com/shalimov-it-limon/QGISProject/tree/master/XML2GeoJSONConverter
+
+# tags are comma separated with spaces allowed
+tags= XML, JSON, GeoJSON
+
+icon=XML2JSON.png
+
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+# Author contact information
+author=Alexander Shalimov
+email=shalimov@it-limon.ru
